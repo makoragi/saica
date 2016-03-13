@@ -205,7 +205,7 @@ ncmb.User.loginAsAnonymous()
                              }
                          }
 
-                         var contentString = "<dl id='infowin1'><p class='text-left'>"+this.tree+"</p><dd class='text-left'><img src='"+this.photo+"' align='left' width='200' />&nbsp;"+str+"</dd></dl>";
+                         var contentString = "<div id='infowin1'><div class='text-left'><h1>【"+this.tree+"】</h1><div class='row'><div class='col-lg-4 text-center'><img src='"+this.photo+"' align='left' width='172' /></div><div class='col-lg-8 text-left'>"+str+"</div></div>";
                          infowindows[index] = new google.maps.InfoWindow({
                              content: contentString,
                          });
