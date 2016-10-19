@@ -174,8 +174,8 @@ var map = new google.maps.Map( canvas , mapOptions ) ;
 var markers = [];
 var infowindows = [];
 
-var app = "cf112a36024a32b1e661aeb957f25f01d4dc3db15a8cf5fcd74a368a687e9341";
-var client = "0c10162147429e70778d509d5098181c0767b20f6193d5f2f16a775c5b9e1f45";
+var app = "cd0e101e715369cc66a3e4626fd45eab7323cb426a2d59e7e557b62b8440fa97";
+var client = "b1ea56e98cdd1cd3f0e71839225484781cf051ae68c05abd813a3ed7118f1a12";
 var ncmb = new NCMB(app, client);
 ncmb.User.loginAsAnonymous()
     .then(function(data){
@@ -189,7 +189,6 @@ ncmb.User.loginAsAnonymous()
 
                      }
                      else {
-
                          markers[index] = new google.maps.Marker( {
                         	    map: map ,
                         		position: new google.maps.LatLng( this.lat , this.lng ) ,
